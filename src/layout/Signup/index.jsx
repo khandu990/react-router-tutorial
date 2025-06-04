@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 // onLogin is a prop passed from the parent
-export default function Signup({ onLogin }) {
+const  Signup=({ onLogin })=> {
   const [form, setForm] = useState({
     fullname: '',
     username: '',
@@ -71,3 +71,4 @@ export default function Signup({ onLogin }) {
     </div>
   );
 }
+export default Signup
