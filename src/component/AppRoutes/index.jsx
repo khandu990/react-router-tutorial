@@ -9,7 +9,7 @@ import Search from "../../layout/Search"
 import Login from "../../layout/Login"
 import { NewProducts } from "../../layout/NewProducts"
 import { FeaturedProducts } from "../../layout/FeaturedProducts"
-import Signup from "../../layout/signup"
+import Signup from "../../layout/Signup"
 
 export const AppRoutes= ({isAuthenticated,handleLogin}) => {
     return (
